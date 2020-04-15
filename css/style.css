@@ -1,0 +1,141 @@
+body
+{
+  text-align: center;
+  margin: 0;
+}
+div
+{
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  font-size: 15px;
+  font-weight:lighter;
+  color:grey;
+
+
+}
+img{
+  position: relative;
+  left:160px;
+  top:50px;
+}
+h3
+{
+  color: Grayish Blue: hsl(229, 6%, 66%);
+}
+
+
+
+
+
+/*****************************class selectors****************************/
+.samehead
+{
+  text-align: left;
+  padding-left: 30px;
+
+}
+.same
+{
+  width:300px;
+  text-align: left;
+  padding-left: 30px;
+}
+.main-container{
+  text-align: center;
+  width:1440px;
+  height:1080px;
+  margin: auto;
+  background-color: hsl(0, 0%, 98%);
+  position: relative;
+}
+.heading-one{
+  font-weight: 10;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0px;
+  color: grey;
+}
+.heading-two
+{
+  font-weight: 400;
+  margin-top: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+.supervisor
+{
+height:25%;
+width:30%;
+position: absolute;
+background-color: #FFFFFF;
+top:370px;
+left:50px;
+ box-shadow: 1px 8px 10px lightgrey;
+border-style:none;
+border-top-style: solid;
+border-color: hsl(180, 62%, 55%);
+border-width: 3px;
+transition: .2s;
+}
+.teambuilder
+{
+  height:25%;
+  width:30%;
+position: absolute;
+left:505px;
+top:210px;
+background-color: #FFFFFF;
+ box-shadow: 1px 8px 10px lightgrey;
+border-style:none;
+border-top-style: solid;
+border-color: hsl(0, 78%, 62%);
+border-width: 3px;
+transition: .2s;
+}
+.calculator
+{
+  height:25%;
+  width:30%;
+position: absolute;
+background-color: #FFFFFF;
+top:350px;
+left:960px;
+ box-shadow: 1px 8px 10px lightgrey;
+border-style:none;
+border-top-style: solid;
+border-color: hsl(212, 86%, 64%);
+border-width: 3px;
+transition: .2s;
+
+
+}
+.karma
+{
+  height:25%;
+  width:30%;
+position: absolute;
+background-color: #FFFFFF;
+top:510px;
+left:505px;
+ box-shadow: 1px 8px 10px lightgrey;
+border-style:none;
+border-top-style: solid;
+border-color: hsl(34, 97%, 64%);
+border-width: 3px;
+transition: .2s;
+}
+.karma:hover
+{
+  transform: translateY(-5px);
+}
+.calculator:hover
+{
+transform: translateY(-5px);
+}
+.teambuilder:hover
+{
+transform: translateY(-5px);
+}
+.supervisor:hover
+{
+transform: translateY(-5px);
+}
